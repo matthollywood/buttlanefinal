@@ -1,0 +1,236 @@
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  margin-bottom: 60px;
+  min-height: 100%;/* Margin bottom by footer height */
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 60px; /* Set the fixed height of the footer here */
+  line-height: 60px; /* Vertically center the text there */
+  background-color: #f5f5f5;
+}
+.container {
+  min-height: :100%;
+  overflow:hidden;
+}
+
+.carousel-inner img {
+    width: 100%;
+    height: 100%;
+}
+div#container-main {
+	position:relative; /* needed for footer positioning*/
+	height:auto !important; /* real browsers */
+	min-height:100%; /* real browsers */
+}
+.margin-0 {
+  margin: 0 !important;
+}
+
+.margin-sm {
+  margin: 2px !important;
+}
+
+.margin-md {
+  margin: 5px !important;
+}
+
+.top-buffer { margin-top:20px; margin-bottom:20px;}
+
+/* change the background color */
+.navbar-default {
+  background-color: #41b6e6;
+  border-color: #3da0c9;
+}
+.navbar-default .navbar-brand {
+  color: #ecf0f1;
+}
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+  color: #d4ecf2;
+}
+
+
+.navbar-default .navbar-text {
+  color: #ecf0f1;
+}
+.navbar-default .navbar-nav > li > a {
+  color: #ecf0f1;
+}
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+  color: #d4ecf2;
+}
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+  color: #d4ecf2;
+  background-color: #3da0c9;
+}
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:hover,
+.navbar-default .navbar-nav > .open > a:focus {
+  color: #d4ecf2;
+  background-color: #3da0c9;
+}
+.navbar-default .navbar-toggle {
+  border-color: #3da0c9;
+}
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+  background-color: #3da0c9;
+}
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #ecf0f1;
+}
+.navbar-default .navbar-collapse,
+.navbar-default .navbar-form {
+  border-color: #ecf0f1;
+}
+.navbar-default .navbar-link {
+  color: #ecf0f1;
+}
+.navbar-default .navbar-link:hover {
+  color: #d4ecf2;
+}
+
+.navbar-toggler {
+  color: #ffffff
+}
+
+.card {
+    /* Add shadows to create the "card" effect */
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+}
+
+.dent-title{
+    color: #41B6E6;
+}
+
+.footer{
+  position: absolute;
+  bottom: 0;
+  text-align:center;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: #E8EDEE;
+}
+
+#footer-content{
+  text-align:center;
+  background-color:white;
+}
+
+#footer-column{
+  text-align:center;
+    background-color: #E8EDEE;
+}
+
+#body-content{
+  background-color: white;
+}
+
+/* Style all font awesome icons */
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+    opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+/* Twitter */
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+.carousel-control-prev-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E")!important;
+}
+
+.carousel-control-next-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E")!important;
+}
+
+
+
+.carousel-control.right, .carousel-control.left {
+     background-image: none;
+ }
+.carousel-indicators {
+ bottom:-50px;
+}
+.carousel-indicators li {
+  border-color: #C0C0C0;
+}
+.carousel-indicators .active {
+ background-color: #c0c0c0;
+}
+.carousel-inner {
+  margin-bottom:50px;
+}
+.carousel .item{
+   height: 400px;
+}
+.item img {
+   position: absolute;
+   top: 0;
+   left: 0;
+   min-height: 400px;
+}
+.carousel .fill {
+   width: 100%;
+   height: 100%;
+   background-position: center;
+   background-size: cover;
+}
+
+
+
+#my-row {
+    display: table;
+}
+
+#my-row .panel {
+    float: none;
+    display: table-cell;
+    vertical-align: top;
+}
+
+@media (max-width: 767px){
+.btn {
+  width:100%;
+}
+
+.mobile-spacing{
+  margin-top:20px;
+}
+
+}
+
+@media (min-width: 768px)
+{
+.side-buffer{
+  margin-right:50px;
+  }
+}
